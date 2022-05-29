@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="course_spinner">
+        <item>Select One...</item>
+        <item>In Progress</item>
+        <item>Plan To Take</item>
+        <item>Dropped</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string-array name="type_spinner">
+        <item>Select One...</item>
+        <item>Performance</item>
+        <item>Objective</item>
+    </string-array>
+
+</resources>

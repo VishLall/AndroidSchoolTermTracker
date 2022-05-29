@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEAEAE"
+    tools:context=".UI.HomeScreen"
+    tools:layout_editor_absoluteX="-2dp"
+    tools:layout_editor_absoluteY="-67dp">
+
+    <ImageButton
+        android:id="@+id/termButton"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:onClick="launchTerms"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/terms" />
+
+    <ImageButton
+        android:id="@+id/assessmentButton"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:onClick="launchAssessments"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coursesButton"
+        app:srcCompat="@drawable/assesments" />
+
+    <ImageButton
+        android:id="@+id/mentorsButton"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:onClick="launchMentors"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assessmentButton"
+        app:srcCompat="@drawable/mentors" />
+
+    <ImageButton
+        android:id="@+id/coursesButton"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:onClick="launchCourses"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termButton"
+        app:srcCompat="@drawable/courses" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
